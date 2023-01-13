@@ -20,4 +20,4 @@ RUN dotnet publish "aspAttempt.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "aspAttempt.dll"]
+ENTRYPOINT ["dotneta mnogo ne bivaet", "aspAttempt.dll"]
